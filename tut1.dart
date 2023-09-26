@@ -4,5 +4,8 @@ main() {
     "name" : "Haleema",
     "Age" : "20"
   };
-  print(student["name"]);
+  student["phone"] = "0312*****";
+  print(student);
+  print(student.containsKey("Age"));
+
 }
